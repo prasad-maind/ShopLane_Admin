@@ -1,0 +1,80 @@
+#productName{
+    height: 40px;
+    width: 350px;
+    display: block;
+
+    margin-right: auto;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 20px;
+    border: 0.5px solid #555;
+    font-weight: 600;
+    text-align: center;   
+}
+#productPrice{
+    height: 40px;
+    width: 350px;
+    display: block;
+
+    margin-right: auto;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 20px;
+    border: 0.5px solid #555;
+    font-weight: 600;
+    text-align: center;   
+}
+#productDiscription{
+    height: 40px;
+    width: 350px;
+    display: block;
+    margin-right: auto;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 20px;
+    border: 0.5px solid #555;
+    font-weight: 600;
+    text-align: center;   
+}
+#brandName{
+    height: 40px;
+    width: 350px;
+    display: block;
+    margin-right: auto;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 20px;
+    border: 0.5px solid #555;
+    font-weight: 600;
+    text-align: center;   
+}
+#catagoryMenOrWomen{
+    height: 40px;
+    width: 350px;
+    display: block;
+    margin-right: auto;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 20px;
+    border: 0.5px solid #555;
+    font-weight: 600;
+    text-align: center;    
+}
+#TypeofProduct{
+    height: 40px;
+    width: 350px;
+    display: block;
+    margin-right: auto;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 20px;
+    border: 0.5px solid #555;
+    font-weight: 600;
+    text-align: center;    
+}
+
+#btnUplode{
+     height: 40px;
+    width: 350px;
+    display: block;
+    margin-right: auto;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 20px;
+    border: 0.5px solid #555;
+    font-weight: 600;
+    text-align: center; 
+}

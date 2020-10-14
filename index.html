@@ -3,55 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ShopLaneUplode</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <title>Document</title>
 </head>
 <body>
-    <input type="file" id="thubmailPhoto" multiple>
-    <button onclick="uplodeThunbnailImage()"></button>Uplode Thumbnail</button>
+    <input type="text" id="productName" placeholder="Product Name" >
+    <input type="text" id="productPrice" placeholder="Product Price" >
+    <input type="text" id="productDiscription" placeholder="Product Discription" >
+    <input type="text" id="brandName" placeholder="Brand Name" >
+    <select id="catagoryMenOrWomen">
+        <option value="Men">Men</option>
+        <option value="Women">Women</option>
+        <option value="Both">Both</option>
+      </select>
+      <select id="TypeofProduct">
+        <option value="Clothing">Clothing</option>
+        <option value="Shoes">Shoes/Sandels</option>
+        <option value="Watches">Watches</option>
+        <option value="Toyes">Toys</option>
+        <option value="MakeUP">MakeUP</option>
+      </select>
+    <input type="file" id="inpFile" multiple accept="images/*">
+    <button id="btnUplode"> uplode file</button>
 </body>
-<!-- The core Firebase JS SDK is always required and must be listed first -->
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+https://firebase.google.com/docs/web/setup#available-libraries -->
 <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-storage.js"></script>
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
 <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-analytics.js"></script>
-
-<script>
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  var firebaseConfig = {
-    apiKey: "AIzaSyCywuknDCjGEJDlO5kVf1a438F0y3jjvF0",
-    authDomain: "shopping-68545.firebaseapp.com",
-    databaseURL: "https://shopping-68545.firebaseio.com",
-    projectId: "shopping-68545",
-    storageBucket: "shopping-68545.appspot.com",
-    messagingSenderId: "796482491050",
-    appId: "1:796482491050:web:577c1c86287534742af6d3",
-    measurementId: "G-Y7CT2ZQM0D"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
-  console.log(firebase)
-  
-  function uplodeThunbnailImage(){
-      const ref = firebase.storage().ref()
-      const file = document.querySelector("#thubmailPhoto").files[0]
-      const name = new Date() + "_" + file.name
-
-      const metadata = {
-          contentType:file.type
-      }
-
-      const task = ref.child(name).put(file,metadata)
-
-      task
-      .then(snapshot => snapshot.ref.getDownloadURL())
-      .then(url => {
-          console.log(url)
-          alert("Image Uplode Sucessful")
-      })
-
-  }
-</script>
+<script src="./index.js"></script>
 </html>
