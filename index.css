@@ -1,1 +1,140 @@
-body{margin: 0;height: 130vh;font-family: 'Roboto', sans-serif}#mainDiv{display: flex;justify-content: space-between;margin-top: 5%}#main_Body{width: 100%;height: 130vh;background-image: url("./templates/c2dd9dec68360fec6156124e62f0f6e7041c8359_forest.jpg")}#topBar{background-color: black;padding: 16px;display: flex;justify-content: space-between;flex-direction: row;align-items: center}#inputDiv{height: 400px;width: 50%}#inputDiv > input{height: 40px;width: 350px;margin-top: 20px;border: 0.5px solid #555;font-weight: 600;text-align: center;margin-left: 25%;border: none}#productDiscription{height: 150px;width: 350px;margin-top: 20px;border: 0.5px solid #555;font-weight: 600;text-align: center;margin-left: 25%;border: none}#selectorDiv{height: 400px;width: 50%}#selectorDiv > select{height: 40px;width: 350px;display: block;margin-top: 20px;border: none;font-weight: 600;text-align: center;margin-left: 25%}#SelectAndUplode{margin-top: 5%;margin-left: 25%}#logoMain{font-size: 30px;font-weight: 200;color: azure}#btnUplode{height: 40px;width: 350px;display: block;margin-top: 20px;border: none;transition-duration: 0.4s;cursor: pointer;position: absolute;left: 40%;font-size: 15px;background-color: #555555;color: white;border: none;border: 2px solid #555555}#btnUplode:hover{border: 2px solid white;color: white}input[type='file']{display: none}label{color: white;height: 50px;width: 200px;background-color:#555555;position: absolute;margin: auto;display: flex;font-size: 15px;justify-content: center;align-items: center;margin-left: 75px}#showUplodedPhoto{height: 35%;width: 80%;background-color: white;position: relative;top:20%;left: 10%;display: flex;justify-content: space-evenly}#showUplodedPhoto > img{height: 95%;width: 25%;margin-top: 0.50%;border: 1px solid #555555}
+body {
+    margin: 0;
+    height: 130vh;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  #mainDiv {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+  }
+  
+  #main_Body {
+    width: 100%;
+    height: 130vh;
+    background-image: url("./templates/c2dd9dec68360fec6156124e62f0f6e7041c8359_forest.jpg");
+    background-repeat: no-repeat;
+  
+  }
+  
+  #topBar {
+    background-color: black;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #inputDiv {
+    height: 400px;
+    width: 50%;
+  }
+  
+  #inputDiv > input {
+    height: 40px;
+    width: 350px;
+    margin-top: 20px;
+    border: 0.5px solid #555;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 25%;
+    border: none;
+  }
+  
+  #productDiscription {
+    height: 150px;
+    width: 350px;
+    margin-top: 20px;
+    border: 0.5px solid #555;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 25%;
+    border: none;
+  }
+  
+  #selectorDiv {
+    height: 400px;
+    width: 50%;
+  }
+  
+  #selectorDiv > select {
+    height: 40px;
+    width: 350px;
+    display: block;
+    margin-top: 20px;
+    border: none;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 25%;
+  }
+  
+  #SelectAndUplode {
+    margin-top: 5%;
+    margin-left: 25%;
+  }
+  
+  #logoMain {
+    font-size: 30px;
+    font-weight: 200;
+    color: azure;
+  }
+  
+  #btnUplode {
+    height: 40px;
+    width: 350px;
+    display: block;
+    margin-top: 20px;
+    border: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: absolute;
+    left: 40%;
+    font-size: 15px;
+    background-color: #555555;
+    color: white;
+    border: none;
+    border: 2px solid #555555;
+  }
+  
+  #btnUplode:hover {
+    border: 2px solid white;
+    color: white;
+  }
+  
+  input[type='file'] {
+    display: none;
+  }
+  
+  label {
+    color: white;
+    height: 50px;
+    width: 200px;
+    background-color: #555555;
+    position: absolute;
+    margin: auto;
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 75px;
+  }
+  
+  #showUplodedPhoto {
+    height: 35%;
+    width: 80%;
+    background-color: white;
+    position: relative;
+    top: 20%;
+    left: 10%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  #showUplodedPhoto > img {
+    height: 95%;
+    width: 25%;
+    margin-top: 0.50%;
+    border: 1px solid #555555;
+  }

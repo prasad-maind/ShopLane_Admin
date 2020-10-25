@@ -49,7 +49,9 @@ btnUplode.addEventListener("click", function() {
   //------------------------------------For empty product informaion
   if (productName.val() !== null && productName.val() !== "") {
     if (productPrice.val() !== null && productPrice.val() !== "") {
-      if (productDiscription.val() !== null && productDiscription.val() !== "") {} else {
+      if (productDiscription.val() !== null && productDiscription.val() !== "") {
+
+      } else {
         alert("Please Enter the Product Discription")
       }
     } else {

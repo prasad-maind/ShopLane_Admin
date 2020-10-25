@@ -1,0 +1,181 @@
+body{
+    margin: 0 ;
+}
+/* ---------------------------------------topBar--------------------------------------------------- */
+#top_bar{
+    box-shadow: 0 2px 4px #ccc;
+    padding: 16px 40px;
+    width: calc(100% - 80px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+
+    background-color: white;
+   
+}
+#left_menu > img{
+    height: 60px;
+}
+.menu_item{
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+    font-family: 'Sansita Swashed', cursive;
+}
+/* ---------------------------------------topBar___Ends--------------------------------------------------- */
+.homepageSection{
+    padding: 4% 8% 0;
+}
+
+/* ---------------------------------------cloting_section--------------------------------------------------- */
+#cloting_section{
+    padding: 0 8% 0;
+    font-family: 'Sansita Swashed', cursive;
+}
+#clothing_grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+.product_grid{
+    width: 100%;
+    max-width: 19%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px #ccc;
+    border-radius: 5px;
+
+}
+#product_grid :hover{
+    width: 102%;
+}
+.product_img{
+    width: 100%;
+    height: 300px;
+}
+.product-meta {
+    box-sizing: border-box;
+    padding: 16px;
+}
+.product-meta > h4 {
+    font-weight: 600;
+    margin: 0;
+    font-size: 16px;
+}
+.product-meta > h5 {
+    font-weight: 600;
+    opacity: 0.8;
+    margin: 0;
+    margin-top: 12px;
+}
+.product-meta > p {
+    margin: 0;
+    margin-top: 12px;
+    font-weight: 600;
+    color: #009688;
+}
+
+.morebutton{
+    height: 100px;
+    width: 100px;
+    background-color: #c9c0c0;
+    position: relative;
+    top: -350px;
+    left: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.fa-angle-double-right{
+    margin-top: 25%;    
+    margin-left: 25%;
+    color: rgb(100, 100, 107);
+}
+.morebutton:hover{
+    border-radius: 30%;
+    transition: 0.3s;
+}
+
+/* ---------------------------------------sneekers_section--------------------------------------------------- */
+#Sneeker_section{
+    padding: 0 8% 0;
+    font-family: 'Sansita Swashed', cursive;
+   
+}
+#sneekerGrid_grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+/* ---------------------------------------Watch_section--------------------------------------------------- */
+#watches_section{
+    padding: 0 8% 0;
+    font-family: 'Sansita Swashed', cursive;
+   
+}
+#watches_grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+/* ---------------------------------------Watch_section--------------------------------------------------- */
+#sunglasses_section{
+    padding: 0 8% 0;
+    font-family: 'Sansita Swashed', cursive;
+   
+}
+#sunglasess_grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+
+
+/* ---------------------------------------Footer_section--------------------------------------------------- */
+
+footer{
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    background-color: #1c1b1e;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.footer-heading {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    opacity: 0.9;
+    letter-spacing: 1px;
+}
+.footer-link {
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-top: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 14px;
+    opacity: 0.8;
+}
+footer > div {
+    display: block;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+footer > div:first-of-type {
+    padding-left: 0;
+}
+main{
+    width: 100%;
+    min-height: 80vh;
+    box-sizing: border-box;
+    margin-top: 100px;
+    padding-bottom: 8%;
+}
